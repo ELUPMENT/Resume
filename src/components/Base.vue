@@ -10,7 +10,7 @@
     </section>
     <section class="info">
       <ul>
-        <li>{{$t('message.gender')}} / 1994.04</li>
+        <li>{{$t('message.gender')}} / 1999.08</li>
         <li>{{$t('message.university')}}</li>
         <li>{{$t('message.profession')}}</li>
         <li>{{$t('message.graduate')}}</li>
@@ -18,7 +18,7 @@
     </section>
     <section class="contact">
       <ul>
-        <li>
+        <!-- <li>
           <a href="https://nibilin33.github.io/frontend-blog/" target="_blank">
             <span class="contact-link">Blog</span>
             <span class="iconfont">
@@ -29,7 +29,7 @@
               </svg>
             </span>
           </a>
-        </li>
+        </li> -->
         <li>
           <a href="https://github.com/ElupMent" target="_blank">
             <span class="contact-link">Github - ElupMent</span>
@@ -43,7 +43,7 @@
           </a>
         </li>
         <li>
-          <a target="_blank">
+          <a href="mailto:474147334@qq.com" target="_blank">
             <span class="contact-link">474147334@qq.com</span>
             <span class="iconfont">
               <svg width="16px" height="16px" viewBox="0 0 1024 1024">
@@ -71,13 +71,6 @@
   </header>
 </template>
 
-<script>
-export default {
-  name: "BaseInfo",
-  data() {
-    return {};
-  },
-  mounted() {},
-  computed: {},
-};
+<script setup lang="ts">
+import { ref } from 'vue'
 </script>
